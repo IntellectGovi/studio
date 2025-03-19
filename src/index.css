@@ -311,7 +311,130 @@ body {
 }
 
 
+.diary h1{
+  font-family: "MADE-LIGHT", sans-serif;
+  font-weight: 500;
+  font-size: 70px;
+  color: #493d25;
+  margin: 0px;
+  text-align: center; 
+  height: auto;
+  margin-top: 20vh;
+}
+
+.diary-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  height: auto;
+  max-width: 70vw ;
+}
+.diary-images img{
+  height: 600px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);
+  border-radius: 12px;
+  margin-top: -4vh;
+}
+
+.diary-images > img:nth-child(1){
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);
+  border-radius: 12px;
+  margin-top: -20vh;
+}
+.diary-images > img:nth-child(3){
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);
+  border-radius: 12px;
+  margin-top: 20vh;
+}
+
+.main-Gallery{
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  max-width: 70vw ;
+  margin-top: 100px;
+}
+.main-Gallery img{
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+}
+
+
+.main-Gallery-text01{
+  font-family: "ARAMIS", sans-serif;  
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: auto;
+  max-width: 50vw ;
+  text-align: center;
+}
+
+.main-Gallery-text02{
+  font-family: "MADE-LIGHT", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  color: #493d25;
+  margin: 0px;
+  text-align: center;
+  margin-top: 20px;
+  width: 20vw;
+  position: relative;
+}
+.main-Gallery-text03{
+  font-family: "ARAMIS", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  color: #493d25;
+  margin: 0px;
+  text-align: center;
+  margin-top: 20px;
+  width: 30vw;
+  position: relative;
+}
+
+.main-Gallery-whiteBg{
+  background-color: white;
+  border-radius: 8px;
+  margin-top: -45px;
+  padding: 12px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);  
+  height: 76vh;
+  width: 26vw ;
+  text-align: center;
+}
+
+.main-Gallery-whiteBg img{
+  height: 75vh;
+  width: 25vw ;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);  
+}
+
+
 /* MAIN SECTION ENDS */
+
+
+
 
 /* FOOTER START */
 
@@ -322,6 +445,50 @@ body {
   gap: 12px;
   flex-direction: column;
   margin-bottom: 12px;
+}
+
+.footer-image{
+  height: 40vh;
+  width: 40vw;
+  object-fit: cover;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.50);
+  border-radius: 8px;
+  z-index: 100;
+  position: relative;
+}
+
+.footerMainHead01{
+  font-family: "MADE-LIGHT", sans-serif;
+  font-weight: 200;
+  font-size: 55px;
+  color: #493d25;
+  text-align: center;
+  margin-top: -3vh;
+  z-index: -1;
+}
+
+.footer-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 12px;
+  /* margin-top: 20px; */
+}
+
+.footer-btn > h1:nth-child(1){
+  color: #493d25;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 20px;
+}
+.footer-btn > h1:nth-child(3){
+  color: #493d25;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .footer-images {

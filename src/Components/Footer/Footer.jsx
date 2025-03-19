@@ -3,6 +3,7 @@ import img01 from "../../Assets/FooterImages/img01.png";
 import img02 from "../../Assets/FooterImages/img02.png";
 import img03 from "../../Assets/FooterImages/img03.png";
 import img04 from "../../Assets/FooterImages/img04.png";
+import image13 from "../../Assets/HomePage/HeroSection/image13.jpg" 
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
@@ -10,6 +11,14 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="footer-style">
+      <div style={{ display: "flex", alignItems: "center" , flexDirection: "column"}}>
+        <img src={image13} alt="footerImages" className="footer-image" />
+        <div className="footer-btn">
+          <h1 className="footerMainHead">INQUIRE NOW</h1>
+          <h1 className="footerMainHead01">READY TO TELL <br/>IT ALL?</h1>
+          <h1 className="footerMainHead">BOOK TODAY</h1>
+        </div>
+      </div>
       <div className="footer-images">
         <img src={img01} alt="footerImages" height={"100vh"} width={"100vw"} />
         <img src={img02} alt="footerImages" height={"100vh"} width={"100vw"} />
