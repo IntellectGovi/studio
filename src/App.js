@@ -4,12 +4,17 @@ import './App.css';
 // import Footer from './Components/Footer/Footer';
 import Home from './Pages/Home';
 import Navigation from './Components/Navigation/Navigation';
+import MobileWarningMessage from './Components/MobileMsgWarning';
 
 function App() {
   return (
+        
+      <>
+      
       <Routes>
         <Route path="/" element={<Home/>} />
       </Routes>
+      </>
   );
 }
 
